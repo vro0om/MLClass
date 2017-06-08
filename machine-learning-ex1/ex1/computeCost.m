@@ -17,7 +17,7 @@ J = 0;
 predictions = X*theta;
 deviation = predictions -y;
 squareErrors=deviation.^2;
-J=1/2*m *sum(squareErrors);
+J=(1/(2*m) )*sum(squareErrors);
 
 
 
